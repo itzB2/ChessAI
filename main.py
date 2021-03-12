@@ -16,6 +16,8 @@ sC = (247, 58, 45)
 vC = ()
 
 board = Board(size,dC,lC,sC)
+board.InitPieces()
+board.InitSquares(lC, dC)
 
 running = False
 while not running:

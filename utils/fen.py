@@ -2,14 +2,14 @@ from pieces import Piece
 
 class Fen():
 	def __init__(self, fen):
-		self.pieces = [[Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("","")], 
-					   [Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("","")], 
-					   [Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("","")], 
-					   [Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("","")], 
-					   [Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("","")], 
-					   [Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("","")], 
-					   [Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("","")], 
-					   [Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("",""), Piece("","")]]
+		self.pieces = [[Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece()], 
+					   [Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece()], 
+					   [Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece()], 
+					   [Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece()], 
+					   [Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece()], 
+					   [Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece()], 
+					   [Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece()], 
+					   [Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece(), Piece()]]
 		typeLookup = {'k':"King",'p':"Pawn",'n':"Knight",'b':"Bishop",'r':"Rook",'q':"Queen"}
 		fenBoard = fen.split(" ")[0]
 		file = 0

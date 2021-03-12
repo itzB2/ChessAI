@@ -18,7 +18,7 @@ p = {"White King":pg.image.load(os.path.join("Sprites", "White King.png")).conve
 	}
 
 class Piece:
-	def __init__(self, color, pType):
+	def __init__(self, color="", pType=""):
 		key = ""
 
 		self.color = color
@@ -48,3 +48,6 @@ class Piece:
 
 		self.key = key
 		self.sprite = p[key]
+
+	def __repr__(self):
+		return f"{self.key}, {self.type}"
