@@ -4,6 +4,90 @@
 		"selected_items":
 		[
 			[
+				"sq",
+				"SquareHighlight\tsquare ⟠"
+			],
+			[
+				"over",
+				"overlayCol2\t⟠"
+			],
+			[
+				"o",
+				"oC2\ttuple ⟠"
+			],
+			[
+				"mo",
+				"moveObject\tMove ⟠"
+			],
+			[
+				"mov",
+				"moveObject\tMove ⟠"
+			],
+			[
+				"pi",
+				"pieceOnTargetSquare\ttype ⟠"
+			],
+			[
+				"dire",
+				"directionIndex\tint ⟠"
+			],
+			[
+				"Di",
+				"directionOffsets\tlist ⟠"
+			],
+			[
+				"di",
+				"directionIndex\tint ⟠"
+			],
+			[
+				"Num",
+				"numSquaresToEdge\tlist ⟠"
+			],
+			[
+				"num",
+				"numWest\tint ⟠"
+			],
+			[
+				"s",
+				"selectedSquare\tlist ⟠"
+			],
+			[
+				"sele",
+				"selected\tPiece | bool ⟠"
+			],
+			[
+				"no",
+				"nothwest\ttuple ⟠"
+			],
+			[
+				"move",
+				"move(…)\tunion ⟠"
+			],
+			[
+				"su",
+				"square\tdict ⟠"
+			],
+			[
+				"sel",
+				"slectedCol\t⟠"
+			],
+			[
+				"dr",
+				"drawSquared()\tfunction ⟠"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"Se",
+				"selected"
+			],
+			[
+				"l",
+				"linearsearch(…)\tfunction ⟠"
+			],
+			[
 				"en",
 				"endDirIndex\tint ⟠"
 			],
@@ -24,24 +108,12 @@
 				"startSquare\tint ⟠"
 			],
 			[
-				"num",
-				"numEast\tint ⟠"
-			],
-			[
 				"min",
 				"min(…)\tfunction ⟠"
 			],
 			[
 				"nu",
 				"numWest\tint ⟠"
-			],
-			[
-				"se",
-				"selectedPiece\tstatement"
-			],
-			[
-				"dr",
-				"drawSquare(…)\tfunction ⟠"
 			],
 			[
 				"d",
@@ -54,10 +126,6 @@
 			[
 				"p",
 				"pType\t⟠"
-			],
-			[
-				"sq",
-				"squares\tint | list ⟠"
 			],
 			[
 				"get",
@@ -118,10 +186,6 @@
 			[
 				"vids",
 				"vids.append\t1★ pro ⟠"
-			],
-			[
-				"no",
-				"normValues\tlist ⟠"
 			],
 			[
 				"n",
@@ -262,10 +326,6 @@
 			[
 				"io",
 				"iostream\tstandard header"
-			],
-			[
-				"l",
-				"lSDL2"
 			],
 			[
 				"scr",
@@ -420,10 +480,6 @@
 				"KeyString〔variable〕"
 			],
 			[
-				"o",
-				"outputString"
-			],
-			[
 				"De",
 				"DecoderOrderGenerator〔function〕"
 			],
@@ -458,97 +514,61 @@
 			[
 				"chu",
 				"chunkSize"
-			],
-			[
-				"noi",
-				"noiseVal"
-			],
-			[
-				"ra",
-				"randint〔module〕"
-			],
-			[
-				"see",
-				"seedNumber〔variable〕"
-			],
-			[
-				"demo",
-				"demo_der〔class〕"
-			],
-			[
-				"P",
-				"PokemonNumber"
-			],
-			[
-				"path",
-				"pathImage〔variable〕"
-			],
-			[
-				"Ab",
-				"Abilities"
-			],
-			[
-				"Fu",
-				"FullData〔variable〕"
-			],
-			[
-				"D",
-				"DownloadImage"
-			],
-			[
-				"Name",
-				"NameList〔variable〕"
-			],
-			[
-				"pat",
-				"pathImage"
-			],
-			[
-				"gen",
-				"genderRatio"
-			],
-			[
-				"ID",
-				"ID2"
-			],
-			[
-				"Abili",
-				"Ability"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "#Libraries\nimport pygame as pg\nimport os\n\np = {\"White King\":pg.image.load(os.path.join(\"Sprites\", \"White King.png\")).convert_alpha(),\n\t \"White Queen\":pg.image.load(os.path.join(\"Sprites\", \"White Queen.png\")).convert_alpha(),\n\t \"White Bishop\":pg.image.load(os.path.join(\"Sprites\", \"White Bishop.png\")).convert_alpha(),\n\t \"White Knight\":pg.image.load(os.path.join(\"Sprites\", \"White Knight.png\")).convert_alpha(),\n\t \"White Rook\":pg.image.load(os.path.join(\"Sprites\", \"White Rook.png\")).convert_alpha(),\n\t \"White Pawn\":pg.image.load(os.path.join(\"Sprites\", \"White Pawn.png\")).convert_alpha(),\n\t \"Black King\":pg.image.load(os.path.join(\"Sprites\", \"Black King.png\")).convert_alpha(),\n\t \"Black Queen\":pg.image.load(os.path.join(\"Sprites\", \"Black Queen.png\")).convert_alpha(),\n\t \"Black Bishop\":pg.image.load(os.path.join(\"Sprites\", \"Black Bishop.png\")).convert_alpha(),\n\t \"Black Knight\":pg.image.load(os.path.join(\"Sprites\", \"Black Knight.png\")).convert_alpha(),\n\t \"Black Rook\":pg.image.load(os.path.join(\"Sprites\", \"Black Rook.png\")).convert_alpha(),\n\t \"Black Pawn\":pg.image.load(os.path.join(\"Sprites\", \"Black Pawn.png\")).convert_alpha(),\n\t \"Blank\":pg.image.load(os.path.join(\"Sprites\", \"blank.png\")).convert_alpha()\n\t}\n\nclass Piece:\n\tdef __init__(self, color, pType):\n\t\tkey = \"\"\n\n\t\tself.color = color\n\t\tself.type = pType\n\t\tself.isSlidingPiece = True if pType == \"Queen\" or pType == \"Rook\" or pType == \"Bishop\" else False\n\n\t\tif color == \"White\":\n\t\t\tkey = key+\"White \"\n\t\telif color == \"Black\":\n\t\t\tkey = key+\"Black \"\n\n\t\tif pType == \"King\":\n\t\t\tkey = key+\"King\"\n\t\telif pType == \"Queen\":\n\t\t\tkey = key+\"Queen\"\n\t\telif pType == \"Bishop\":\n\t\t\tkey = key+\"Bishop\"\n\t\telif pType == \"Knight\":\n\t\t\tkey = key+\"Knight\"\n\t\telif pType == \"Rook\":\n\t\t\tkey = key+\"Rook\"\n\t\telif pType == \"Pawn\":\n\t\t\tkey = key+\"Pawn\"\n\n\t\tif color == \"\" and pType == \"\":\n\t\t\tkey = \"Blank\"\n\n\t\tself.key = key\n\t\tself.sprite = p[key]\n",
 			"file": "pieces.py",
-			"file_size": 1925,
-			"file_write_time": 132587375771415272,
 			"settings":
 			{
-				"buffer_size": 1875,
+				"buffer_size": 2007,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "from pieces import Piece\n\nclass Fen():\n\tdef __init__(self, fen):\n\t\tself.pieces = [[Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\")], \n\t\t\t\t\t   [Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\")], \n\t\t\t\t\t   [Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\")], \n\t\t\t\t\t   [Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\")], \n\t\t\t\t\t   [Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\")], \n\t\t\t\t\t   [Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\")], \n\t\t\t\t\t   [Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\")], \n\t\t\t\t\t   [Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\"), Piece(\"\",\"\")]]\n\t\ttypeLookup = {'k':\"King\",'p':\"Pawn\",'n':\"Knight\",'b':\"Bishop\",'r':\"Rook\",'q':\"Queen\"}\n\t\tfenBoard = fen.split(\" \")[0]\n\t\tfile = 0\n\t\trank = 7\n\n\t\tfor char in fenBoard:\n\t\t\tif char ==\"/\":\n\t\t\t\tfile = 0\n\t\t\t\trank -=1\n\t\t\telse:\n\t\t\t\tif char.isdigit():\n\t\t\t\t\tfile += int(char)\n\t\t\t\telse:\n\t\t\t\t\tpieceColor = \"White\" if char.isupper() else \"Black\"\n\t\t\t\t\tpieceType = typeLookup[char.lower()]\n\t\t\t\t\tself.pieces[file][rank] = Piece(pieceColor, pieceType)\n\t\t\t\t\tfile+=1\n",
 			"file": "utils/fen.py",
-			"file_size": 1533,
-			"file_write_time": 132587381892463291,
 			"settings":
 			{
-				"buffer_size": 1504,
+				"buffer_size": 1184,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "#Libraries\nimport pygame\n\n#Own Modules\nfrom pieces import Piece\nfrom utils.fen import Fen\n\nclass Move:\n\tdef __init__(self, ss, ts):\n\t\tself.StartSquare = int(ss)\n\t\tself.TargetSquare = int(ts)\n\nclass Board:\n\tdef __init__(self, size, darkCol, lightCol, slectedCol, fen = \"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1\"):\n\t\tself.surface = pygame.Surface((size,size))\n\t\tself.squares = [[{'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}], \n\t\t\t\t\t\t [{'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False},\n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}], \n\t\t\t\t\t\t [{'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}], \n\t\t\t\t\t\t [{'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}], \n\t\t\t\t\t\t [{'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}], \n\t\t\t\t\t\t [{'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}], \n\t\t\t\t\t\t [{'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}], \n\t\t\t\t\t\t [{'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}, \n\t\t\t\t\t\t {'color': '', 'piece': '', 'selected': False}]]\n\t\tself.sqSize = size/8\n\t\tself.drawSquares(lightCol, darkCol)\n\t\tself.currentfen = fen\n\t\tself.slectedCol = slectedCol\n\t\tself.lightCol = lightCol\n\t\tself.darkCol = darkCol\n\t\tself.canSelect = True\n\t\tself.ColourToMove = \"White\"\n\n\tdef drawSquares(self, lightCol, darkCol):\n\t\tfile = 0\n\t\twhile file<8:\n\t\t\trank = 0\n\t\t\twhile rank<8:\n\t\t\t\tisLightSquare = (file + rank) % 2 != 0\n\n\t\t\t\tsquareColor = lightCol if isLightSquare else darkCol\n\t\t\t\tposition = (file*self.sqSize, rank*self.sqSize)\n\t\t\t\tself.squares[file][rank][\"color\"] = squareColor\n\t\t\t\tpygame.draw.rect(self.surface, self.squares[file][rank][\"color\"], pygame.Rect(position[0],position[1],self.sqSize,self.sqSize)) \n\t\t\t\trank+=1\n\t\t\tfile+=1\n\n\tdef drawPieces(self):\n\t\tpieces = Fen(self.currentfen).pieces\n\t\tfile = 0\n\t\twhile file<8:\n\t\t\trank = 0\n\t\t\twhile rank<8:\n\t\t\t\tself.squares[file][rank][\"piece\"] = pieces[file][rank]\n\t\t\t\tsprite = pieces[file][rank].sprite\n\t\t\t\tsprite = pygame.transform.smoothscale(sprite, (int(self.sqSize),int(self.sqSize)))\n\t\t\t\tpos = (int(file*self.sqSize), int(rank*self.sqSize))\n\t\t\t\tself.surface.blit(sprite, pos)\n\t\t\t\trank+=1\n\t\t\tfile+=1\n\n\tdef getSquare(self, mPos):\n\t\tsquare = [0,0]\n\t\tfile = 0\n\t\twhile file<8:\n\t\t\tstartPos = int(file*self.sqSize)\n\t\t\tendPos = int((file+1)*self.sqSize)\n\t\t\t# print(file, startPos, endPos, mPos[1])\n\t\t\tif mPos[0] <= endPos and mPos[0] >= startPos:\n\t\t\t\tsquare[0] = file\n\t\t\t\tbreak\n\t\t\tfile+=1\n\t\trank = 0\n\t\twhile rank<8:\n\t\t\tstartPos = int(rank*self.sqSize)\n\t\t\tendPos = int((rank+1)*self.sqSize)\n\t\t\t# print(file, startPos, endPos, mPos[0])\n\t\t\tif mPos[1] <= endPos and mPos[1] >= startPos:\n\t\t\t\tsquare[1] = rank\n\t\t\t\tbreak\n\t\t\trank+=1\n\t\treturn square\n\n\tdef selectSquare(self, mPos):\n\t\tindex = self.getSquare(mPos)\n\t\tisLightSquare = (index[0] + index[1]) % 2 != 0\n\t\tsquareColor = self.lightCol if isLightSquare else self.darkCol\n\n\t\tif self.canSelect == True and self.squares[index[0]][index[1]][\"selected\"] == False:\n\n\t\t\tself.squares[index[0]][index[1]][\"selected\"] = True\n\t\t\tself.drawSquare(index,self.slectedCol)\n\t\t\tself.canSelect = False\n\t\telif self.canSelect == False and self.squares[index[0]][index[1]][\"selected\"] == True:\n\n\t\t\tself.squares[index[0]][index[1]][\"selected\"] = False\n\t\t\tself.drawSquare(index, squareColor)\n\t\t\tself.canSelect = True\n\n\t\tif self.squares[index[0]][index[1]][\"selected\"] == True and self.squares[index[0]][index[1]][\"piece\"].key != \"Blank\":\n\t\t\tselectedPiece = self.squares[index[0]][index[1]][\"piece\"].key\n\t\t\tprint(f\"{selectedPiece} is selected\")\n\t\t\tprint(self.squares[index[0]][index[1]][\"piece\"].isSlidingPiece)\n\t\t\tself.movePiece(index)\n\n\tdef drawSquare(self, index, col):\n\t\tposition = (index[0]*self.sqSize, index[1]*self.sqSize)\n\t\tpygame.draw.rect(self.surface, col, pygame.Rect(position[0],position[1],self.sqSize,self.sqSize)) \n\n\tdef movePiece(self, index):\n\t\tpiece = self.squares[index[0]][index[1]][\"piece\"]\n\n\tdef draw(self,surface):\n\t\tself.drawPieces()\n\t\tsurface.blit(self.surface, (0,0))\n\n",
 			"file": "board.py",
-			"file_size": 7004,
-			"file_write_time": 132587384607498320,
 			"settings":
 			{
-				"buffer_size": 6833,
+				"buffer_size": 6986,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "square.py",
+			"settings":
+			{
+				"buffer_size": 495,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 804,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -556,19 +576,8 @@
 			"file": "/F/4 Beethu/RoughNotes/RoughNoteChess.py",
 			"settings":
 			{
-				"buffer_size": 26,
+				"buffer_size": 11,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "#Libraries\nimport pygame\n\npygame.init()\n\nDISPLAY = pygame.display.set_mode((720,720))\n\n#Own Modules\nfrom board import Board\nfrom utils.fen import Fen\n\nsize = DISPLAY.get_width()\ndC = (255, 137, 94)\nlC = (200,200,200)\nsC = (247, 58, 45)\nvC = ()\n\nboard = Board(size,dC,lC,sC)\n\nrunning = False\nwhile not running:\n\tfor event in pygame.event.get():\n\t\tif event.type == pygame.QUIT:\n\t\t\trunning = True\n\t\telif event.type == pygame.MOUSEBUTTONDOWN:\n\t\t\tmPos = pygame.mouse.get_pos()\n\t\t\tif pygame.mouse.get_pressed()[0] == 1:\n\t\t\t\tboard.selectSquare(mPos)\n\t\t\telif pygame.mouse.get_pressed()[1] == 1:\n\t\t\t\t#MIDDLE\n\t\t\t\tpass\n\t\t\telif pygame.mouse.get_pressed()[2] == 1:\n\t\t\t\t#RMB\n\t\t\t\tpass\n\n\tboard.draw(DISPLAY)\n\tpygame.display.update()",
-			"file": "main.py",
-			"file_size": 752,
-			"file_write_time": 132587493602348935,
-			"settings":
-			{
-				"buffer_size": 716,
 				"line_ending": "Windows"
 			}
 		}
@@ -676,10 +685,17 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/F/4 Beethu/ChessAI/Initial Commit"
+	],
 	"file_history":
 	[
-		"/F/4 Beethu/ChessAI/.git/COMMIT_EDITMSG",
-		"/F/4 Beethu/ChessAI/LICENSE",
+		"/D/My Office/02 Sunday School/Online Sunday School/1 UG Online SS/035_14 March 2021/033E Kids Response/Whole Zip/everything.py",
+		"/F/4 Beethu/ChessAI/Initial Commit/Matrix.py",
+		"/F/4 Beethu/ChessAI/Moves/.git/COMMIT_EDITMSG",
+		"/F/4 Beethu/ChessAI/Initial Commit/try.py",
+		"/F/4 Beethu/ChessAI/Initial Commit/board.py",
 		"/F/4 Beethu/ChessAI/board.py",
 		"/F/4 Beethu/RoughNotes/RoughNoteChess.py",
 		"/F/4 Beethu/ChessAI/utils/fen.py",
@@ -802,14 +818,11 @@
 		"/F/JB Intern/UncleGeorge/index.html",
 		"/F/JB Intern/newtry.py",
 		"/F/pyjunk/just html.py",
-		"/F/JB Intern/widgets/HelloWorld/html.html",
-		"/F/Emulator/Python/CHIP-8/Debug.txt",
-		"/F/Emulator/CPP/CHIP-8/main.cpp",
-		"/F/Emulator/CHIP-8/main.py"
+		"/F/JB Intern/widgets/HelloWorld/html.html"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 45.6
 	},
 	"find_in_files":
 	{
@@ -823,7 +836,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"#",
+			"color",
+			"overlayCol",
+			"oC",
+			"Bishop",
+			"EndDirIndex",
+			"StartDirIndex",
+			"directionIndexStart",
+			"file",
+			"[\"",
+			"getSquare",
+			"generateMoves",
+			"south",
+			"north",
+			"True",
+			"pygame",
+			"squareColor",
+			"darkCol",
+			"lC",
+			"selec",
+			"piece",
+			"False",
+			"InitPieces",
+			"Piece(\"\",\"\")",
+			"piece",
+			"pType",
+			"ts",
+			"White",
 			"sC",
 			"qqqqqqqq",
 			"QQQQQQQQ",
@@ -897,7 +936,7 @@
 		"regex": false,
 		"replace_history":
 		[
-			"",
+			"Piece()",
 			"Piece(\"\",\"\")",
 			"print",
 			"/t",
@@ -923,15 +962,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1875,
+						"buffer_size": 2007,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1315,
-								1315
+								1915,
+								1915
 							]
 						],
 						"settings":
@@ -940,10 +979,10 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 276.0,
+						"translation.y": 483.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -952,15 +991,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1504,
+						"buffer_size": 1184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1452,
-								1452
+								855,
+								855
 							]
 						],
 						"settings":
@@ -973,7 +1012,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -982,15 +1021,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6833,
+						"buffer_size": 6986,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6749,
-								6749
+								3092,
+								3092
 							]
 						],
 						"settings":
@@ -1000,7 +1039,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1932.0,
+						"translation.y": 3381.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1008,25 +1047,25 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/F/4 Beethu/RoughNotes/RoughNoteChess.py",
+					"file": "",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26,
-								26
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"show_definitions": false,
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"show_definitions": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1037,19 +1076,19 @@
 				},
 				{
 					"buffer": 4,
-					"file": "main.py",
+					"file": "square.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 716,
+						"buffer_size": 495,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								586,
-								586
+								24,
+								24
 							]
 						],
 						"settings":
@@ -1058,10 +1097,68 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 414.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/F/4 Beethu/RoughNotes/RoughNoteChess.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1100,7 +1197,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 190.0
+		"height": 201.0
 	},
 	"output.find_results":
 	{
@@ -1138,7 +1235,7 @@
 	"project": "ChessAI.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 83.2
 	},
 	"save_all_on_build": true,
 	"select_file":

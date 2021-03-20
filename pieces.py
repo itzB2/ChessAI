@@ -21,6 +21,8 @@ class Piece:
 	def __init__(self, color="", pType=""):
 		key = ""
 
+		self.file = 0
+		self.rank = 0
 		self.color = color
 		self.type = pType
 		self.isSlidingPiece = True if pType == "Queen" or pType == "Rook" or pType == "Bishop" else False
@@ -48,6 +50,9 @@ class Piece:
 
 		self.key = key
 		self.sprite = p[key]
+		
+	def generateMoves(self):
+		pass
 
 	def __repr__(self):
 		return f"{self.key}, {self.type}"

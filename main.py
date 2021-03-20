@@ -13,9 +13,10 @@ size = DISPLAY.get_width()
 dC = (255, 137, 94)
 lC = (200,200,200)
 sC = (247, 58, 45)
-vC = ()
+oC1 = (0, 0, 0)
+oC2 = (255, 0, 0)
 
-board = Board(size,dC,lC,sC)
+board = Board(size,dC,lC,sC,oC1,oC2, fen="Qq")
 board.InitPieces()
 board.InitSquares(lC, dC)
 
