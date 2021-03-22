@@ -126,6 +126,7 @@ class Board:
 		elif self.canSelect == False and square.selected == True:
 
 			square.selected = False
+			self.revertSquares()
 			self.selectedSquare = [-1,-1]
 			self.canSelect = True
 
@@ -148,6 +149,12 @@ class Board:
 				self.surface.blit(sprite, pos)
 				rank+=1
 			file+=1
+
+	def revertSquares(self):
+		for row in self.squares:
+			for square in row:
+				color = square.color
+				pygame.draw.rect(self.surface, color, pygame.Rect(square.pos[0],square.pos[1],self.sqSize,self.sqSize))
 
 	def drawSquare(self, index, col):
 		position = (index[0]*self.sqSize, index[1]*self.sqSize)

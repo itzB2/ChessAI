@@ -16,7 +16,7 @@ sC = (247, 58, 45)
 oC1 = (0, 0, 0)
 oC2 = (255, 0, 0)
 
-board = Board(size,dC,lC,sC,oC1,oC2, fen="Qq")
+board = Board(size,dC,lC,sC,oC1,oC2, fen="Q")
 board.InitPieces()
 board.InitSquares(lC, dC)
 
